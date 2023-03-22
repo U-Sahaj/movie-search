@@ -1,0 +1,12 @@
+{
+    "movie_id": "19995",
+    "title": "Avatar",
+    "cast": "[{\"cast_id\": 242, \"character\": \"Jake Sully\", \"id\": 65731, \"name\": \"Sam Worthington\", \"order\": 0}, {\"cast_id\": 3, \"character\": \"Neytiri\", \"id\": 8691, \"name\": \"Zoe Saldana\", \"order\": 1}, {\"cast_id\": 25, \"character\": \"Dr. Grace Augustine\", \"id\": 10205, \"name\": \"Sigourney Weaver\", \"order\": 2}, {\"cast_id\": 4, \"character\": \"Col. Quaritch\", \"id\": 32747, \"name\": \"Stephen Lang\", \"order\": 3}, {\"cast_id\": 5, \"character\": \"Trudy Chacon\", \"id\": 17647, \"name\": \"Michelle Rodriguez\", \"order\": 4}, {\"cast_id\": 8, \"character\": \"Selfridge\", \"id\": 1771, \"name\": \"Giovanni Ribisi\", \"order\": 5}, {\"cast_id\": 101, \"character\": \"Na'vi (uncredited)\", \"id\": 103259, \"name\": \"Nikie Zambo\", \"order\": 81}, {\"cast_id\": 102, \"character\": \"Ambient Room Tech / Troupe\", \"id\": 42286, \"name\": \"Julene Renee\", \"order\": 82}]",
+    "crew": "[{\"id\": 2710, \"job\": \"Director\", \"name\": \"James Cameron\"}, {\"id\": 6878, \"job\": \"Supervising Art Director\", \"name\": \"Kevin Ishioka\"}, {\"id\": 12653, \"job\": \"Supervising Art Director\", \"name\": \"Kim Sinclair\"}, {\"id\": 18265, \"job\": \"Director of Photography\", \"name\": \"Mauro Fiore\"}, {\"id\": 957889, \"job\": \"Supervising Art Director\", \"name\": \"Stefan Dechant\"}, {\"id\": 959555, \"job\": \"Supervising Art Director\", \"name\": \"Todd Cherniawsky\"}, {\"id\": 1483234, \"job\": \"CG Supervisor\", \"name\": \"Ben White\"}, {\"id\": 1621932, \"job\": \"Stunts\", \"name\": \"Min Windle\"}]"
+  }
+
+interface MovieDirector {
+    movieId: string;
+    title: string;
+    
+}

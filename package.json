@@ -36,6 +36,7 @@
     "inherits": "^2.0.4",
     "ip": "^2.0.0",
     "ipaddr.js": "^1.9.1",
+    "jest": "^29.5.0",
     "kareem": "^2.5.1",
     "media-typer": "^0.3.0",
     "memory-pager": "^1.5.0",
@@ -46,6 +47,8 @@
     "mime-types": "^2.1.35",
     "mongodb": "^5.1.0",
     "mongodb-connection-string-url": "^2.6.0",
+    "mongodb-memory-server": "^8.12.1",
+    "mongodb-memory-server-core": "^8.12.1",
     "mongoose": "^7.0.2",
     "mpath": "^0.9.0",
     "mquery": "^5.0.0",
@@ -74,6 +77,7 @@
     "statuses": "^2.0.1",
     "toidentifier": "^1.0.1",
     "tr46": "^3.0.0",
+    "ts-jest": "^29.0.5",
     "type-is": "^1.6.18",
     "unpipe": "^1.0.0",
     "utils-merge": "^1.0.1",
@@ -82,7 +86,9 @@
     "whatwg-url": "^11.0.0"
   },
   "scripts": {
-    "test": "npx jest --verbose"
+    "test": "jest",
+    "funny": "tsc --module commonjs && jest ./dist",
+    "load": "tsc load_user_preferences.ts"
   },
   "repository": {
     "type": "git",
@@ -97,5 +103,15 @@
   "bugs": {
     "url": "https://github.com/U-Sahaj/movie-search/issues"
   },
-  "homepage": "https://github.com/U-Sahaj/movie-search#readme"
+  "homepage": "https://github.com/U-Sahaj/movie-search#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "ts-node": "^10.9.1",
+    "vitest": "^0.29.7"
+  },
+  "config": {
+    "mongodbMemoryServer": {
+      "debug": "1"
+    }
+  }
 }
