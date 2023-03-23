@@ -46,25 +46,9 @@ const creditSchema: Schema = new Schema({
       type: String,
       required: true
   },
-
   cast: {
-    type: [CastSchema],
-    transform:function(doc, ret, options) {
-      ret.id = ret._id;
-      delete ret._id;
-      delete ret.__v;
-      return ret;
-  }
-    // get: function(data:string):ICast {
-    //   try { 
-    //     return JSON.parse(data);
-    //   } catch(err) { 
-    //     return err as ICast;
-    //   }
-    // },
-    // set: function(data:ICast) {
-    //   return JSON.stringify(data);
-    // }
+    type: String,
+    required: true
   },
 
   crew: {
