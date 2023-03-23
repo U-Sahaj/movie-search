@@ -12,6 +12,6 @@ export type CrewType = {
 export type CreditsType = {
     movieId: string;
     title: string;
-    cast: CastType[];
-    crew: CrewType[];
+    cast: string;
+    crew: string;
 }

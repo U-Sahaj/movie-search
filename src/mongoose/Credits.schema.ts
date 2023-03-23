@@ -18,8 +18,8 @@ const CrewSchema = new Schema<CrewType>({
 const CreditsSchema = new Schema<ICreditsDocument>({
   movieId: { type: String, required: true , alias: 'movie_id'},
   title: { type: String, required: true },
-  cast: { type: [CastSchema], required: true },
-  crew: { type: [CrewSchema], required: true },
+  cast: { type: String, required: true },
+  crew: { type: String, required: true },
 });
 
 export default CreditsSchema
