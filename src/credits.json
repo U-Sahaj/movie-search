@@ -1,0 +1,86 @@
+[
+    {
+        "movie_id": "19995",
+        "title": "Avatar",
+        "cast": [
+            {
+                "cast_id": 242,
+                "character": "Jake Sully",
+                "credit_id": "5602a8a7c3a3685532001c9a",
+                "gender": 2,
+                "id": 65731,
+                "name": "Sam Worthington",
+                "order": 0
+            },
+            {
+                "cast_id": 3,
+                "character": "Neytiri",
+                "credit_id": "52fe48009251416c750ac9cb",
+                "gender": 1,
+                "id": 8691,
+                "name": "Zoe Saldana",
+                "order": 1
+            }
+        ],
+        "crew": [
+            {
+                "credit_id": "52fe48009251416c750aca23",
+                "department": "Editing",
+                "gender": 0,
+                "id": 1721,
+                "job": "Editor",
+                "name": "Stephen E. Rivkin"
+            },
+            {
+                "credit_id": "539c47ecc3a36810e3001f87",
+                "department": "Art",
+                "gender": 2,
+                "id": 496,
+                "job": "Production Design",
+                "name": "Rick Carter"
+            }
+        ]
+    },
+    {
+        "movie_id": "285",
+        "title": "Pirates of the Caribbean: At World's End",
+        "cast": [
+            {
+                "cast_id": 4,
+                "character": "Captain Jack Sparrow",
+                "credit_id": "52fe4232c3a36847f800b50d",
+                "gender": 2,
+                "id": 85,
+                "name": "Johnny Depp",
+                "order": 0
+            },
+            {
+                "cast_id": 5,
+                "character": "Will Turner",
+                "credit_id": "52fe4232c3a36847f800b511",
+                "gender": 2,
+                "id": 114,
+                "name": "Orlando Bloom",
+                "order": 1
+            }
+        ],
+        "crew": [
+            {
+                "credit_id": "52fe4232c3a36847f800b579",
+                "department": "Camera",
+                "gender": 2,
+                "id": 120,
+                "job": "Director of Photography",
+                "name": "Dariusz Wolski"
+            },
+            {
+                "credit_id": "52fe4232c3a36847f800b4fd",
+                "department": "Directing",
+                "gender": 2,
+                "id": 1704,
+                "job": "Director",
+                "name": "Gore Verbinski"
+            }
+        ]
+    }
+]

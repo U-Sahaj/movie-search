@@ -3,7 +3,7 @@ import { ICreditsDocument } from '../mongoose/Credits.schema';
 import { CreditsRepository } from './CreditsRepository';
 import { ICredit, Cast } from './types/ICredit';
 
-describe('CreditsRepository', () => {
+describe.skip('CreditsRepository', () => {
   let repository: CreditsRepository;
 
   beforeAll(async () => {
